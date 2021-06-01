@@ -13,5 +13,7 @@ int main()
         cout << word << " ";
     }
     cout << endl;
+
+    cout << "sac" ;
 }
 
