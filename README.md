@@ -1,11 +1,3 @@
-# test
+# C++ Monte-Carlo-Simulation code
 
-testing
-
-## somethng
-
-sad
-
-## in another branch
-
-oops
+A program to compute nuclear criticality
