@@ -1,7 +1,13 @@
 #include <string>
 #include <iostream>
-void split(std::string str, std::string wrd[])//(, int n)
+#include <vector>
+
+vector<string> split(string str)
 {
 
-    std::cout << wrd[0] << std::endl;
+    cout << str << endl;
+}
+
+bool isSpace(char s){
+    return (s == " ");
 }

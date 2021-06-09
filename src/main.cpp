@@ -1,21 +1,17 @@
 #include <iostream>
+#include <string>// using string constructors
+#include <vector>
 #include "general.h"
-#include <string>
 
 using namespace std;
+
+string commandline{};
+vector<string> CmdArgs{};
+
+
 int main(){
-/* char a = 's', b = 66, c = 67;
-cout << a;
-cout << b;
-cout << c;  */
 
-string strr, wrdd[4];
-int nn ;
-strr = "ssssssssss";
-wrdd[0] = "rdrd";
-
- split(strr, wrdd);//, nn);
-
- return 0;
-
+    commandline = "sachin vasanta shet siddapur UK karnataka";
+    CmdArgs = split(string commandline);
+    return 0;
 }

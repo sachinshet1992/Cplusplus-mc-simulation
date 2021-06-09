@@ -1,2 +1,6 @@
 #include <string>
-void split(std::string str, std::string wrd[]);//, int n);
+#include <vector>
+
+using namespace std;
+
+vector<string> split(string str);
